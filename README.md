@@ -23,9 +23,9 @@ The updated workflow can be found in the code snippet below and in the repo here
 
     on:
       push:
-        branches: [ "main" ]
+        branches: [ "devops" ]
       pull_request:
-        branches: [ "main" ]
+        branches: [ "devops" ]
 
     jobs:
       build:
